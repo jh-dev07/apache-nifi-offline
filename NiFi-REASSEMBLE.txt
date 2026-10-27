@@ -1,0 +1,10 @@
+Download all three parts into the same folder. They are parts of ONE ZIP, not separate ZIPs.
+
+Windows: open Command Prompt (cmd.exe) in that folder and run:
+copy /b nifi-offline.zip.001+nifi-offline.zip.002+nifi-offline.zip.003 nifi-offline.zip
+
+Linux:
+cat nifi-offline.zip.001 nifi-offline.zip.002 nifi-offline.zip.003 > nifi-offline.zip
+
+The resulting ZIP must be 1151263814 bytes. Extract it and follow nifi-offline/README.md.
+Docker must already be installed. The image includes Java 21 and Python 3.11.2.
