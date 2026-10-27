@@ -1,0 +1,2 @@
+- unzip split files (this should generate 3 split files)
+- follow NiFi-REASSEMBLE.txt
